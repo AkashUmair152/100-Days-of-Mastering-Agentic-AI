@@ -1,46 +1,61 @@
+# Day 01: Python Setup & Basics
 
-# 100 Days of Mastering Agentic AI
+Welcome to Day 01 of **100 Days of Mastering Agentic AI**! Here’s a summary of what I learned today.
 
-*(Each `daily-progress/day-XX-*/` folder will contain the project files and a `README.md` describing that day's work.)*
+## Downloading Python
 
-## 🚀 Projects Built
+- Visit the [official Python website](https://www.python.org/downloads/) and download Python for your operating system.
+- Install Python to get the Python Virtual Machine, which runs your code.
 
-### This section will be updated as projects are completed
+## Downloading an IDE
 
-- **Project 1:** File Organizer CLI (Day 14)
-- **Project 2:** Simple To-Do API (Day 28)
-- **Project 3:** Dataset Analyzer (Day 42)
-- **Project 4:** AI Assistant CLI (Day 56)
-- **Project 5:** AI FAQ Bot (LangChain) (Planned Day 63)
-- **Project 6:** Simple Autonomous Task Planner (CrewAI) (Planned Day 70)
-- **...**
-- **Capstone Project:** [Name TBD] (Days 92-150+)
+- **IDE** stands for *Integrated Development Environment*.
+- You can write and run Python code directly, but using an IDE is recommended.
+- Popular IDEs: VS Code, PyCharm, Jupyter.
+- For this course, we’ll use **VS Code**.
 
-## 📚 Key Technologies & Tools
+## Setting Up & First Program
 
-- **Languages:** Python
-- **Frameworks/Libraries:** FastAPI, LangChain, CrewAI, Numpy, Pandas, SQLAlchemy
-- **Databases:** SQLite (or PostgreSQL), MongoDB
-- **Cloud/Deployment:** Render/Railway (Backend), Vercel (Frontend - Month 4)
-- **Tools:** VS Code, Git, GitHub, Postman (for API testing), OpenAI API Key
+- In VS Code, install the **Python** and **Code Runner** extensions.
+- Create your first Python program (not just "Hello World"!).
 
-## 💡 Tips for Success (From the Roadmap)
+## Comments & Variables
 
-- **Consistency:** Aim to code *something* every single day.
-- **Document:** Take notes, code snippets, screenshots, or short screen recordings. Write brief descriptions.
-- **Share:** Post daily on LinkedIn using hashtags like #100DaysOfCode, #AgenticAI, #Python, #FastAPI, #LangChain, #CrewAI.
-- **Learn:** Don't just copy/paste. Understand the concepts and code. Read documentation. Watch tutorials if stuck.
-- **Iterate:** Feel free to modify this roadmap based on your pace and interests. Spend extra time on challenging topics.
-- **Experiment:** Go beyond the plan. Modify projects, combine ideas, or explore related concepts.
-- **Have Fun:** Enjoy the journey of building intelligent agents!
+### Comments
 
-## 🔗 Connect & Follow Along
+- Comments are ignored by the Python interpreter.
+- Single-line comment: `# This is a comment`
+- Multiline comments: Use docstrings (`""" Multiline comment """`).
 
-- **LinkedIn:** [Your Name](YOUR_LINKEDIN_PROFILE) (Search for posts with relevant hashtags)
-- **GitHub:** You are here! Star this repo to follow the journey.
+### Variables
 
----
+- Variables store data in Python.
+- Example: `name = "Akash"`, `age = 12`
+- Rules:
+  - Cannot start with a number.
+  - No spaces or special characters.
+  - Naming styles: `sheryiansSchool`, `SheryiansSchool`, `sheryians_school`.
 
-### Built with ❤️ and powered by 🐍
+## Data Types in Python
 
-![Celebratory Python GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExczR0a21kM2Rqb2V4YzV6b3Z5dHh0aG51b3R2YzF2aG51Y3F0a3BpdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKSjRrfIPjeiVyM/giphy.gif)
+- **Numbers**: `int`, `float`, `complex`
+- **Strings**: Store text, use quotes (`"text"` or `'text'`)
+- **Boolean**: `True` or `False`
+
+## Strings & Type Conversion
+
+- Strings use more space due to Unicode encoding.
+- Use `ord()` to get Unicode value, `chr()` to convert back.
+- String indexing: `a = "Hello"` → `a[0]` is `"H"`, `a[-1]` is `"o"`
+- String slicing: `a[start:stop:step]`
+
+## Type Conversion
+
+- Convert between types using functions: `int()`, `float()`, `str()`, `list()`, `tuple()`, `set()`, `dict()`, `bool()`
+- **Implicit conversion**: Python automatically converts types (e.g., `print(12/2)` gives `6.0`).
+- **Explicit conversion**: Use conversion functions manually.
+
+### Truthy & Falsy Values
+
+- Only 7 values are falsy: `0`, `0.0`, `False`, `""`, `[]`, `{}`, `None`
+- Everything else is truthy.
