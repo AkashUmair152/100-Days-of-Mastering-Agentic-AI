@@ -63,3 +63,69 @@
 #         break
 # else:
 #     print("List is sorted")
+
+
+# # tuple
+
+
+# a = (1,2,3,4,5,6,7,7,7.6, print(), "hello" )
+
+# for i in range(len(a)):
+#     print(a[i])
+    
+# # set in python 
+
+# a ={1,2,3,4}
+# print(type(a))
+
+# print(a)
+
+
+# # dictionary in python
+
+# dic = {1:"one", 2:"hello", 3:"hello"}
+# for i in dic:
+#     print(dic[i])
+
+# # # Dictionary Questions
+# # Write a Python script to merge two Python dictionaries?
+
+# d1 ={10:"100",20:"20", 30:"30"}
+# d2 ={40:"400",50:"500",60:"600"}
+
+# for i in d2:
+#     d1[i]= d2[i]
+# print(d1)
+
+# # Write a Python program to sum all the values in a dictionary?
+# d3 ={1:10,2:20,3:30,4:4000000}
+# sum = 0
+# for i in d3:
+#     sum = sum + d3[i]
+# print((f"the sum of d3 ${sum}"))
+
+
+# # Count the frequency of each element
+
+# lis = [1,1,1,1,1,1,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4]
+
+# d ={}
+# for i in lis:
+#     if i in d.keys():
+#         d[i] += 1
+#     else:
+#         d[i] = 1
+# print(d)
+
+# """ Write a Python program to combine two dictionary by adding
+# values for common keys."""
+
+# d1 ={10:100,20:20, 40:30}
+# d2 ={40:400,50:500,60:600}
+
+# for i in d2:
+#     if i in d1.keys():
+#         d1[i] += d2[i]
+#     else:
+#         d1[i] = d2[i]
+# print(d1)
