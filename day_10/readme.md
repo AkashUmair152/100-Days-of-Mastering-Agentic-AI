@@ -271,9 +271,7 @@ print(BagFactory.is_bag_valid(2, 1))  # Output: True
 
 ---
 
-**Created by**: [Your Name]  
-📅 **Date**: April 2025  
-🎯 **Topic**: Introduction to OOP in Python
+**Created by**: Akash Umair 
 
 ---
 
